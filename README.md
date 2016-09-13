@@ -1,3 +1,10 @@
 # Pioneras-Developers
 
-hyugy
+En este informe se realiza una búsqueda de información para la creación de un sitio web  dinámico que cubra las necesidades del grupo PionerasDevelopers .
+Se realizó un benchmarking donde se analizaron los distintos sitios web que pertenecen a grupos de mujeres programadoras, los cuales nos sirven como referencia y marcan algunas tendencias generales.
+
+Para analizar y determinar el perfil tecnológico (sus servidores, frameworks, librerías JavaScript, etc), se utilizó la herramienta buildwith, la cual nos permitió determinar cuáles son los elementos más populares dentro de este contexto.
+Build with:http://builtwith.com/
+
+También, utilizamos la herramienta PageSpeed Insights para evaluar la velocidad de carga de los sitios y la experiencia del usuario tanto en dispositivos móviles como en ordenadores, identificando elementos que se pueden mejorar para potenciar la funcionalidad de cada sitio.
+PageSpeed Insights:https://developers.google.com/speed/pagespeed/insights/?hl=es
