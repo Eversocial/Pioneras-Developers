@@ -8,3 +8,19 @@ Build with:http://builtwith.com/
 
 También, utilizamos la herramienta PageSpeed Insights para evaluar la velocidad de carga de los sitios y la experiencia del usuario tanto en dispositivos móviles como en ordenadores, identificando elementos que se pueden mejorar para potenciar la funcionalidad de cada sitio.
 PageSpeed Insights:https://developers.google.com/speed/pagespeed/insights/?hl=es
+
++Librerias JavaScript mas comunes:
+-JQuery
+-JQuery UI
+-JQuery Cookie
+-JQuery Masonry
+
++Palabras claves:
+
+-Benchmarking:es una herramienta estratégica relacionada con la búsqueda acelerada de la competitividad del grupo u organización
+mediante la comparación de lo que hacemos y cómo lo hacemos, contra lo que hacen los mejores en su clase y cómo lo hacen. 
+
+-Servidor:Es un equipo que forma parte de una red y esta al "servicio" de otros equipos cliente. 
+
+-Framework:Es un esquema para el desarrollo y/o implementacion de una aplicacion. 
+
