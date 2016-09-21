@@ -6,7 +6,73 @@
  * Licensed under MIT 
  * Based on Bootstrap v3.3.4
 */
-/*read more de la galleria */
+/*clases desde la seccion meetup*/
+.nav-bar-orange {
+  display: inline;
+  margin-top: 12px;
+}
+.img-cohete {
+  width: 80%;
+}
+.margin-meep {
+  margin-left: 4% !important;
+}
+.conti-meep1 {
+  background: #FAFAFA;
+  padding-bottom: 12px;
+}
+.conti-meep2 {
+  margin-left: 4% !important;
+}
+.cont-meepimg {
+  width: 93.3%;
+  margin-left: -16px;
+  padding-left: 0px;
+}
+.conti-img2 {
+  width: 87%;
+  margin-left: -16;
+}
+.cont-meeptext {
+  margin-left: -70px;
+  background-color: #FAFAFA;
+  padding-bottom: 12px;
+}
+.cont-meeptext2 {
+  margin-left: -70px;
+  color: 000;
+  background-color: #FAFAFA;
+}
+.gallery-wth {
+  width: 80%;
+}
+.gallety-wth2 {
+  width: 76%;
+}
+.gallery-wth3 {
+  width: 90%;
+}
+.gallery-wth4 {
+  width: 90%;
+}
+.imgperfil1 {
+  width: 60%;
+  margin-left: 50px;
+}
+.imgperfil2 {
+  width: 60%;
+  margin-left: 20%;
+}
+.imgperfil3 {
+  width: 60%;
+  height: 21%;
+  margin-left: 20%;
+}
+.imgperfil4 {
+  width: 60%;
+  height: 21%;
+  margin-left: 20%;
+}
 /*efecto botones*/
 .cmn-t-translate-bshadow {
   padding: 20px 40px;
@@ -74,10 +140,14 @@
 }
 .ch-img-1 {
   background-image: url(rubyedit3.png);
+  background-repeat: none;
+  background-position: center;
 }
 .ch-img-2 {
   background-image: url(rubyedit3.png);
   width: 80%;
+  background-repeat: none !important;
+  background-position: center !important;
 }
 .ch-img-3 {
   background-image: url(../images/21.jpg);
@@ -304,7 +374,6 @@ h1 {
   color: white;
   padding-right: 30px;
 }
-/*flecha de la galeria*/
 /**/
 .hovereffect {
   width: 60%;
@@ -381,6 +450,88 @@ h1 {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
+/*media 990------------------------------------------------------- */
+@media (max-width: 990px) {
+  .nav-bar-orange {
+    margin-top: -63px !important;
+  }
+  .img-cohete {
+    margin-left: 12% !important;
+    margin-right: 12% !important;
+  }
+  .ch-info {
+    width: 40% !important;
+    height: 89% !important;
+  }
+  .ch-info-front .ch-img-2 {
+    width: 65% !important;
+  }
+  .ch-item {
+    margin-left: 260px !important;
+    height: 176px !important;
+  }
+  .margin-meep {
+    margin-left: 8% !important;
+    width: 80%;
+  }
+  .conti-meep1 {
+    background: #FAFAFA;
+    padding-bottom: 12px;
+  }
+  .conti-meep2 {
+    margin-left: 8% !important;
+    width: 80%;
+  }
+  .cont-meepimg {
+    width: 100% !important;
+    margin-left: -16px;
+    padding-left: 20px !important;
+  }
+  .conti-img2 {
+    width: 100% !important;
+    margin-left: 1px;
+  }
+  .cont-meeptext {
+    margin-left: 0px !important;
+  }
+  .cont-meeptext2 {
+    margin-left: 0px !important;
+  }
+  .gallery-wth {
+    width: 100%;
+  }
+  .gallety-wth2 {
+    width: 100%;
+  }
+  .gallery-wth3 {
+    width: 100%;
+  }
+  .imgperfil1 {
+    width: 34% !important;
+    height: 35% !important;
+    margin-left: 33% !important;
+    margin-right: 33% !important;
+  }
+  .imgperfil2 {
+    width: 34% !important;
+    height: 35% !important;
+    margin-left: 33% !important;
+    margin-right: 33% !important;
+  }
+  .imgperfil3 {
+    width: 34% !important;
+    height: 35% !important;
+    margin-left: 33% !important;
+    margin-right: 33% !important;
+  }
+  .imgperfil4 {
+    width: 32% !important;
+    height: 32% !important;
+    margin-left: 35% !important;
+    margin-right: 35% !important;
+  }
+}
+/*final 990 :D*/
 /* Add custom CSS classes here 
  * 
  * img {
