@@ -6,74 +6,8 @@
  * Licensed under MIT 
  * Based on Bootstrap v3.3.4
 */
-/*clases desde la seccion meetup*/
-.nav-bar-orange {
-  display: inline;
-  margin-top: 12px;
-}
-.img-cohete {
-  width: 80%;
-}
-.margin-meep {
-  margin-left: 4% !important;
-}
-.conti-meep1 {
-  background: #FAFAFA;
-  padding-bottom: 12px;
-}
-.conti-meep2 {
-  margin-left: 4% !important;
-}
-.cont-meepimg {
-  width: 93.3%;
-  margin-left: -16px;
-  padding-left: 0px;
-}
-.conti-img2 {
-  width: 87%;
-  margin-left: -16;
-}
-.cont-meeptext {
-  margin-left: -70px;
-  background-color: #FAFAFA;
-  padding-bottom: 12px;
-}
-.cont-meeptext2 {
-  margin-left: -70px;
-  color: 000;
-  background-color: #FAFAFA;
-}
-.gallery-wth {
-  width: 80%;
-}
-.gallety-wth2 {
-  width: 76%;
-}
-.gallery-wth3 {
-  width: 90%;
-}
-.gallery-wth4 {
-  width: 90%;
-}
-.imgperfil1 {
-  width: 60%;
-  margin-left: 50px;
-}
-.imgperfil2 {
-  width: 60%;
-  margin-left: 20%;
-}
-.imgperfil3 {
-  width: 60%;
-  height: 21%;
-  margin-left: 20%;
-}
-.imgperfil4 {
-  width: 60%;
-  height: 21%;
-  margin-left: 20%;
-}
-/*efecto botones*/
+/*read more de la galleria */
+/*---------------------EFECTO BOTONES----------------------*/
 .cmn-t-translate-bshadow {
   padding: 20px 40px;
   color: #000;
@@ -85,9 +19,9 @@
   box-shadow: -10px -10px 0 #787878;
   transform: translate(10px, 10px);
 }
-/*efecto hover en las imagenes de tecnologia*/
+/*--------EFECTO HOVER EN LAS IMAGENES DE TECNOLOGIA*/
 .ch-item {
-  width: 100%;
+  width: 258px;
   height: 190px;
   border-radius: 50%;
   position: relative;
@@ -100,8 +34,8 @@
 }
 .ch-info {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width:258px;
+  height: 190px;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
   -o-transform-style: preserve-3d;
@@ -111,8 +45,8 @@
 .ch-info > div {
   display: block;
   position: absolute;
-  width: 80%;
-  height: 100%;
+  width: 198px;
+  height: 175px;
   border-radius: 10%;
   background-position: center center;
   -webkit-transition: all 0.4s linear;
@@ -140,14 +74,10 @@
 }
 .ch-img-1 {
   background-image: url(rubyedit3.png);
-  background-repeat: none;
-  background-position: center;
 }
 .ch-img-2 {
   background-image: url(rubyedit3.png);
   width: 80%;
-  background-repeat: none !important;
-  background-position: center !important;
 }
 .ch-img-3 {
   background-image: url(../images/21.jpg);
@@ -212,7 +142,7 @@
   transform: rotate3d(1, 0, 0, 0deg);
   opacity: 1;
 }
-/*hover para perfiles*/
+/*-------.--------------HOVER PARA PERFILES------------------------------------*/
 .cmn-t-scale {
   padding: 0px 0px;
   color: #fff;
@@ -223,7 +153,7 @@
   color: #fff;
   transform: scale(1.1);
 }
-/*boton de la cabezera*/
+/*-----BOTON DE LA CABEZERA-------------------*/
 .cmn-t-shake {
   padding: 20px 40px;
   color: #fff;
@@ -254,7 +184,7 @@
     transform: translateX(0);
   }
 }
-/*popup para la galeria*/
+/*----------------------POPUP PARA GALERIA--------------------*/
 body {
   background: #444;
   margin: 0;
@@ -264,7 +194,7 @@ h1 {
   color: #fff;
   text-align: center;
 }
-/*Estilos de la galeria*/
+/*---------ESTILOS DE LA GALERIA------------*/
 #gallery-proy .cont-realizados {
   width: 200px;
   height: 200px;
@@ -374,6 +304,7 @@ h1 {
   color: white;
   padding-right: 30px;
 }
+/*flecha de la galeria*/
 /**/
 .hovereffect {
   width: 60%;
@@ -450,88 +381,7 @@ h1 {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-/*media 990------------------------------------------------------- */
-@media (max-width: 990px) {
-  .nav-bar-orange {
-    margin-top: -63px !important;
-  }
-  .img-cohete {
-    margin-left: 12% !important;
-    margin-right: 12% !important;
-  }
-  .ch-info {
-    width: 40% !important;
-    height: 89% !important;
-  }
-  .ch-info-front .ch-img-2 {
-    width: 65% !important;
-  }
-  .ch-item {
-    margin-left: 260px !important;
-    height: 176px !important;
-  }
-  .margin-meep {
-    margin-left: 8% !important;
-    width: 80%;
-  }
-  .conti-meep1 {
-    background: #FAFAFA;
-    padding-bottom: 12px;
-  }
-  .conti-meep2 {
-    margin-left: 8% !important;
-    width: 80%;
-  }
-  .cont-meepimg {
-    width: 100% !important;
-    margin-left: -16px;
-    padding-left: 20px !important;
-  }
-  .conti-img2 {
-    width: 100% !important;
-    margin-left: 1px;
-  }
-  .cont-meeptext {
-    margin-left: 0px !important;
-  }
-  .cont-meeptext2 {
-    margin-left: 0px !important;
-  }
-  .gallery-wth {
-    width: 100%;
-  }
-  .gallety-wth2 {
-    width: 100%;
-  }
-  .gallery-wth3 {
-    width: 100%;
-  }
-  .imgperfil1 {
-    width: 34% !important;
-    height: 35% !important;
-    margin-left: 33% !important;
-    margin-right: 33% !important;
-  }
-  .imgperfil2 {
-    width: 34% !important;
-    height: 35% !important;
-    margin-left: 33% !important;
-    margin-right: 33% !important;
-  }
-  .imgperfil3 {
-    width: 34% !important;
-    height: 35% !important;
-    margin-left: 33% !important;
-    margin-right: 33% !important;
-  }
-  .imgperfil4 {
-    width: 32% !important;
-    height: 32% !important;
-    margin-left: 35% !important;
-    margin-right: 35% !important;
-  }
-}
-/*final 990 :D*/
+
 /* Add custom CSS classes here 
  * 
  * img {
@@ -7301,4 +7151,832 @@ body {
 .cover .cover-image.cover-image-fixed {
   background-attachment: fixed;
 }
+
+
 /* PINGENDO COMMENT DO NOT REMOVE */
+/*-----------------------------------ClASES EDITABLES------------------------------*/
+
+.logo-pioneras {
+    width: 90px;
+    margin-left:30px; 
+    display:inline;
+}
+.titulo-pio{
+  width: 1119px;
+}
+.boton-unete{
+    font-size: 25px;
+    background-color: rgba(53, 51, 51, 0.278431);
+    border-color: rgba(53, 51, 51, 0.278431);
+    margin-right: 0px;
+}
+.menu-fontsize{
+  font-size:22px; 
+  color:#fff;
+}
+.tittle-quienes{
+    font-size: 40;
+    margin-bottom: 10px;
+    width: 720px;
+    color: #000;
+}
+.buton-sabermas{
+      font-size: 25px;
+    margin-top: 10px;
+    margin-left: -220px;
+}
+.nav-bar-orange {
+    display: inline;
+    margin-top: 12px;
+}
+.img-cohete {
+    width: 311px;
+}
+.text-quienes{
+  font-size: 18px;
+    color: #000;
+}
+.tit-tec{
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 60px; 
+}
+.font-patros{
+  font-size: 27px !important;
+}
+
+.meet-wth{
+  width: 100%;
+}
+
+.margin-meep{
+   margin-left: 45px !important;
+}
+.conti-meep1 {
+    background: #FAFAFA;
+    padding-bottom: 12px;
+}
+.cont-meepimg {
+      width: 404px;
+    margin-left: -16px;
+    padding-left: 0px;
+}
+.cont-meeptext {
+    margin-left: -70px;
+    background-color: #FAFAFA;
+    padding-bottom: 12px;
+}
+.conti-meep2 {
+    margin-left: 45px !important;
+}
+.conti-img2 {
+    width: 375px;
+    margin-left: -16;
+}
+
+.cont-meeptext2 {
+    margin-left: -70px;
+    color: 000;
+    background-color: #FAFAFA;
+}
+.boton-galeria{
+    background-color: #F99232;
+    color: #fff;
+    font-size: 24 !important;
+    z-index: 5;
+    position: relative;
+    top: -27px;
+}
+.gallery-wth {
+     width: 350px;
+}
+.gallery-wth2{
+   width: 221px;
+
+}
+.gallery-wth1{
+   width: 258px;
+}
+.gallery-wth3
+{
+  width: 241px;
+  height: 168px;
+}
+.gallery-wth4{
+   width: 244px;
+    height: 162px;
+}
+.gallery-wth5 {
+  margin-top: 10px;
+    width: 242px;
+}
+.pioneras-wth{
+    color: #fff;
+    width: 86%;
+}
+.imgperfil1 {
+    width: 60%;
+    margin-left: 50px;
+}
+.imgperfil2 {
+    width: 60%;
+    margin-left: 20%;
+}
+.imgperfil3 {
+    width: 60%;
+    height: 21%;
+    margin-left: 20%;
+}
+.imgperfil4 {
+    width: 60%;
+    height: 21%;
+    margin-left: 20%;
+}
+.nomb-perfil{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 7px;
+    color: #fff;
+}
+.nomb-perfil2{
+  font-size: 22px;
+    text-align: center;
+    margin-top: 7px;
+    color: #fff;
+}
+.nomb-perfil3{
+  font-size: 22px;
+    text-align: center;
+    margin-top: 7px;
+    color: #fff;
+}
+.nomb-perfil4{
+  font-size: 22px;
+  text-align: center;
+  margin-top: 7px;
+  color: #fff;
+}
+.margin-patros {
+    margin-left: 100px;
+}
+.patros{
+  border-right: #F99232 3px solid;
+  margin-left: 100px;
+  border-right: #F99232 3px solid;
+}
+.text-medjs{
+  text-align: center;
+  font-size: 26px;
+}
+.text-acce{
+text-align: center;
+font-size: 26px;
+}
+.text-make{
+  text-align: center;
+  font-size: 26px;
+}
+.text-rutan{
+  text-align: center;
+  font-size: 26px;
+}
+.text-vive{
+      text-align: center;
+      font-size: 26px;
+}
+.img-medjs{
+  width: 60%;
+    margin-left: 38px;
+}
+.img-acce{
+width: 65%;
+    margin-left: 38px;
+}
+.img-make{
+     width: 60%;
+    margin-left: 38px;
+}
+.img-rutan{
+  width: 70%;
+    margin-left: 29px;
+}
+.img-vive{
+     width: 60%;
+    margin-left: 38px;
+}
+.margin-sigsocial{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0px;
+}
+.footer-ep{
+    background-color: #F99232;
+    width: 100%;
+    height: 110px;
+    margin-top: -40px;
+}
+.title-patros{
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: #F99232 2px solid;
+  }
+  .siguenos-marg{
+  margin-top: 0px;
+}
+.back-mar{
+      margin-top: -38px !important;
+}
+.hora-lugar{
+  display: inline-block;
+  text-align: center;
+  font-size: 29px;
+  padding-left: 10px;
+}
+.numero{
+    font-size: 50px;
+    color:#E29822;
+    padding-right: 7px;
+}
+.mes{ 
+    padding-right: 8px;
+}
+
+/*----------------FINAL CLASES EDITABLES-------------------------------------*/
+/*-------------RESPONSIVE 990---------------------------------------*/
+
+@media (max-width: 990px){
+.titulo-pio {
+    width: 725px;
+}
+.nav-bar-orange {
+    margin-top: 0px !important;
+}
+.img-cohete {
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.margin-meep {
+    width: 574px;
+    margin-left: 56px !important;
+}
+.conti-meep1 {
+    padding-bottom: 12px;
+    background: rgb(250, 250, 250);
+}
+.cont-meepimg {
+    margin-left: -16px;
+    width: 544px;
+    padding-left: 20px;
+}
+.ch-info > div {
+    width: 190px !important;
+    height: 156px !important;
+    margin-left: 270px;
+}
+.cont-meeptext {
+    margin-left: 0px !important;
+}
+.conti-meep2 {
+    width: 80%;
+    margin-left: 8% !important;
+}
+.conti-img2 {
+    margin-left: 1px;
+    width: 100%;
+}
+.cont-meeptext2 {
+    margin-left: 0px;
+}
+.gallery-wth {
+    width: 87%;
+}
+.gallery-wth1{
+  width: 90%;
+}
+.gallery-wth2{
+    width:76%;
+}
+.patros{
+      margin-left: 0 !important;
+}
+.text-medjs {
+    text-align: center;
+    font-size: 22px !important;
+}
+.text-acce {
+    text-align: center;
+    font-size: 22px !important;
+}
+.text-make {
+    text-align: center;
+    font-size: 22px !important;
+}
+.text-rutan {
+    text-align: center;
+    font-size: 22px !important;
+}
+.text-vive {
+    text-align: center;
+    font-size: 23px !important;
+}
+.img-medjs{
+    margin-left: 18px !important;
+}
+.img-acce{
+    margin-left: 18px !important;
+}
+.img-make{
+    margin-left: 18px !important;
+}
+.img-rutan{
+  margin-left: 18px !important;
+}
+.img-vive{
+    margin-left: 18px !important;
+}
+.pioneras-wth {
+    color: #fff;
+    width: 720px;
+}
+.imgperfil1 {
+    width: 36%;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.imgperfil2 {
+    width: 36%;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.imgperfil3 {
+   width: 37%;
+    margin-left: 33%;
+    margin-right: 32%;
+    height: 214px;
+}
+.imgperfil4{
+    width: 37%;
+    margin-left: 33%;
+    margin-right: 32%;
+    height: 214px;
+  }
+.margin-sigsocial{
+  font-size: 20px !important;
+  margin-top: -24px !important;
+}
+.buton-sabermas{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 0px !important;
+}
+.footer-ep{
+    background-color: #F99232;
+    width: 100%;
+    height: 110px;
+    margin-top: -40px;
+}
+.siguenos-marg{
+  margin-top: -20px;
+}
+}
+/*FINAL MEDIA 990----------------------------------------*/
+
+/*---------------MEDIA 770-----------------------------------------------*/
+@media (max-width: 770px){
+.titulo-pio{
+  width: 710px !important;
+}
+.nav-bar-orange {
+  margin-top: -81px !important;
+}
+
+.menu-fontsize{
+    font-size: 20px !important;
+}
+.ch-item {
+    width: 194px !important;
+    margin-left: 289px !important;
+    }
+.ch-info > div {
+    width: 155px !important;
+    height: 148px !important;
+    margin-left: 0px;
+}
+
+.logo-pioneras {
+    width: 15%;
+    margin-left: -11px !important; 
+}
+
+.boton-unete{
+  margin-right: 0px !important;
+}
+.tittle-quienes{
+     width: 708px !important;    
+}
+.img-cohete {
+  width: 578px !important;
+  margin-left: 85px;
+  margin-right: 85px;
+}
+.text-quienes{
+  font-size: 18px;
+    color: #000;
+    width: 760px !important;
+}
+.buton-sabermas {
+  margin-left: 0px !important;;
+}
+.tit-tec{
+    width: 717px; 
+}
+.ch-item {
+    margin-left: 200px;
+    height: 176px;
+}
+.meet-wth{
+  width: 756px !important;
+}
+.margin-meep {
+  width: 576px;
+  margin-left: 78px !important;
+}
+.conti-meep1{
+  margin-left: 0px !important;
+}
+.conti-meep2{
+  width: 576px;
+  margin-left: 78px !important;
+}
+.cont-meepimg {
+    margin-left: -16px;
+    width: 440px !important;
+    padding-left: 20px;
+}
+.conti-img2 {
+    margin-left: 1px;
+    width: 529px;
+}
+
+.boton-galeria{
+   margin-left: 0px;
+}
+.pioneras-wth{
+    color: #fff;
+    width: 720px
+}
+
+.gallery-wth1{
+    width: 500px;
+}
+.gallery-wth{
+    width: 500px;
+}
+.gallery-wth2 {
+    width: 500px;
+}
+.imgperfil1 {
+    width: 263px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+}
+.imgperfil2 {
+    width: 257px;
+    margin-left: 242px;
+    margin-right: 242px;
+}
+.imgperfil3 {
+   width: 263px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.imgperfil4 {
+   width: 263px;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.nomb-perfil{
+   font-size: 31px !important;
+    margin-top: 10px !important;
+    margin-left: 0px;
+}
+.nomb-perfil2{
+  font-size: 31px !important;
+   margin-top: 10px !important;
+   margin-left: -99px;
+}
+.nomb-perfil3{
+font-size: 31px !important;
+   margin-top: 10px !important;
+   margin-left: -99px;
+}
+.nomb-perfil4{
+  font-size: 31px !important;
+   margin-top: 10px !important;
+   margin-left: -99px;
+}
+.img-medjs{
+    width: 131px;
+    margin-left: 38px !important;
+}
+.img-acce{
+    width: 131px;
+    margin-left: 38px !important;
+}
+.img-make{
+    width: 131px;
+    margin-left: 38px !important;
+}
+.img-rutan{
+  width: 131px;
+    margin-left: 38px !important;
+}
+.img-vive{
+  width: 131px;
+    margin-left: 38px !important;
+  }
+  .patros{
+      margin-left: 0 !important;
+}
+.footer-ep{
+    background-color: #F99232;
+    width: 100%;
+    height: 110px;
+    margin-top: -40px;
+}
+}
+/*-------------------------MEDIA 440--------------------------*/
+@media (max-width: 440px){
+.titulo-pio {
+    width: 300px !important;
+}
+.logo-pioneras {
+    width: 90px;
+    margin-left: -11px !important;
+}
+.tittle-quienes {
+    width: 378px !important;
+}
+.img-cohete {
+    width: 286px !important;
+    margin-left: 57px;
+    margin-right: 57px;
+}
+.text-quienes {
+    font-size: 18px;
+    color: #000;
+    width: 400px !important;
+}
+.tit-tec {
+    width: 377px;
+}
+.ch-info > div {
+    width: 127px !important;
+    height: 121px !important;
+    margin-left: -77px;
+}
+.meet-wth {
+    width: 400px !important;
+}
+.margin-meep {
+  width: 381px;
+    margin-left: 5px !important;
+}
+
+.conti-meep2 {
+  width: 381px;
+    margin-left: 5px !important;
+}
+.pioneras-wth {
+    color: #fff;
+    width: 372px;
+}
+.imgperfil1 {
+    width: 198px;
+    margin-left: 92px;
+    margin-right: 92px;
+}
+
+.imgperfil2 {
+    width: 198px;
+    margin-left: 92px;
+    margin-right: 92px;
+}
+.imgperfil3 {
+    width: 198px;
+    margin-left: 92px;
+    margin-right: 92px;
+  }
+
+  .imgperfil4 {
+   width: 198px;
+    margin-left: 92px;
+    margin-right: 92px;
+}
+
+.img-medjs {
+    width: 110px;
+    margin-left: 128px !important;
+}
+.img-acce {
+    width: 110px;
+    margin-left: 128px !important;
+}
+.img-make {
+    width: 110px;
+    margin-left: 128px !important;
+}
+.img-rutan {
+    width: 110px;
+    margin-left: 128px !important;
+}
+.img-vive {
+    width: 110px;
+    margin-left: 128px !important;
+}
+.ch-info {
+    width: 83px !important;   
+}
+
+.ch-item {
+    margin-left: 199px !important;
+}
+
+.footer-ep{
+    background-color: #F99232;
+    width: 100%;
+    height: 214px;
+    margin-top: -40px;
+}
+.patros{
+      border-right: none !important;
+      margin-bottom: 
+   }
+}
+/*------------------------MEDIA 321--------------------------------------------*/
+@media (max-width: 321px){
+
+.titulo-pio {
+    width: 280px !important;
+}
+.tittle-quienes {
+    width: 296px !important;
+    font-size: 24px;
+}
+.img-cohete {
+    width: 271px !important;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+.text-quienes {
+    font-size: 17px;
+    color: #000;
+    width: 324px !important;
+}
+.buton-sabermas {
+    margin-left: 0px !important;
+    font-size: 22px;
+}
+.tit-tec {
+    width: 289px;
+    font-size: 26px;
+}
+.ch-item {
+    margin-left: 99px !important;
+}
+.ch-info > div {
+    width: 123px !important;
+    height: 121px !important;
+    margin-left: -16px;
+}
+.meet-wth {
+    width: 295px !important;
+}
+.margin-meep {
+    width: 281px;
+    margin-left: 5px !important;
+}
+.conti-meep2 {
+    width: 281px;
+    margin-left: 5px !important;
+}
+.gallery-wth1 {
+    width: 285px;
+}
+.gallery-wth2 {
+    width: 285px;
+}
+.gallery-wth {
+   width: 285px;
+}
+
+.pioneras-wth {
+    color: #fff;
+    width: 292px;
+    font-size: 25px;
+}
+.imgperfil1 {
+    width: 150px;
+    margin-left: 76px;
+    margin-right: 44px;
+}
+.nomb-perfil {
+   font-size: 22px !important;
+    margin-top: 10px !important;
+    margin-left: 0px;
+}
+.imgperfil2 {
+     width: 150px;
+    margin-left: 76px;
+    margin-right: 44px;
+}
+.imgperfil3 {
+    width: 150px;
+    margin-left: 76px;
+    margin-right: 44px;
+}
+.imgperfil4 {
+   width: 150px;
+    margin-left: 76px;
+    margin-right: 44px;
+}
+.title-patros{
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: #F99232 2px solid;
+    font-size: 28px;
+}
+.img-medjs {
+    width: 95px;
+    margin-left: 100px !important;
+}
+.img-acce {
+    width: 95px;
+    margin-left: 100px !important;
+}
+.font-patros {
+    font-size: 24px !important;
+}
+.img-make {
+    width: 82px;
+    margin-left: 109px !important;
+}
+.img-rutan {
+     width: 95px;
+    margin-left: 100px !important;
+}
+.img-vive {
+     width: 95px;
+    margin-left: 100px !important;
+}
+}
+
+/*------- JQUERY DE FLECHA  SCROLL UP----------------------------  */
+
+a.back-to-top {
+    display:none;
+    width: 60px;
+    height: 60px;
+    text-indent: -9999px;
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom: 20px;
+    background: rgba(53, 51, 51, 0.278431) url(up-arrow.png) no-repeat center 43%;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+a:hover.back-to-top {
+  background-color: #fff;
+}
+/*------------------SECCION DE  PROBLEMATICAS-------------------*/
+.hacer-text{
+      font-size: 18px;
+    color: #000;
+}
+.tittle-hacer{
+    font-size: 38;
+    margin-bottom: 10px;
+    width: 881px;
+    color: #000;
+}
+.column {
+    padding-right: 100px;
+    padding-left: 100px;
+    min-height: 1em;
+    position: relative;
+    float: none;
+    box-sizing: border-box;
+}
+.large {
+    font-size: 2em;
+    font-weight: 300;
+    font-family: "Roboto Slab","Helvetica","Arial",sans-serif;
+    line-height: 1.25em;
+}
+.greedy+.column {
+    clear: both;
+}
+
