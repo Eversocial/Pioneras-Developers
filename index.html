@@ -5,12 +5,18 @@
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="Pioneras 2.0.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="./js/scrolling-nav.js"></script>
+     <script type="text/javascript" src="./js/jquery.easing.min.js"></script>
+     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   </head><body>
+  <a href="#" class="back-to-top">Back to Top</a>
+
     <div class="cover" style="background: rgba(53, 51, 51, 0.278431);">
       <div class="navbar" style="">
         <div class="container" style="background-color:#F99232 !important;width:100%;height:85px">
           <div class="navbar-header">
-            <img src="logo5.png" class="img-responsive" style="width:16%; margin-left:30px; display:inline;">
+            <img src="logo5.png" class="img-responsive logo-pioneras">
             <button type="button" data-toggle="collapse" data-target="#navbar-ex-collapse" class="navbar-toggle">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
@@ -20,35 +26,35 @@
             <a class="navbar-brand" href="#"><span></span></a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-            <ul class="nav navbar-nav navbar-right" style="display:inline;margin-top:12px">
+            <ul class="nav navbar-nav navbar-right nav-bar-orange">
               <li class="active">
-                <a href="#" style="font-size:22px; color:#fff">Inicio</a>
+                <a href="#" class="menu-fontsize">Inicio</a>
               </li>
               <li>
-                <a href="#" style="font-size:22px; color:#fff">Sobre nosotras</a>
+                <a href="#quien" class="menu-fontsize page-scroll" >Sobre nosotras</a>
               </li>
               <li>
-                <a href="#" style="font-size:22px; color:#fff">Proyectos</a>
+                <a href="#" class="menu-fontsize">Proyectos</a>
               </li>
               <li>
-                <a href="http://pionerasdevelopers.github.io/" style="font-size:22px; color:#fff">Blog</a>
+                <a href="http://pionerasdevelopers.github.io/" target="_blank" class="menu-fontsize">Blog</a>
               </li>
               <li>
-                <a href="#" style="font-size:22px; color:#fff">Meetups</a>
+                <a href="#meet" target="_blank" class="menu-fontsize page-scroll">Meetups</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
       <div style="background-image : url('foto.jpeg')" class="background-image-fixed cover-image"></div>
-      <div class="container">
+      <div  class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h1 class="text-inverse">¡Crearemos con código nuestra Nave Pionera!</h1>
+            <h1 id="top"class="text-inverse titulo-pio">¡Crearemos con código nuestra Nave Pionera!</h1>
             <p class="text-inverse"></p>
             <br>
             <br>
-            <a class="btn btn-lg btn-primary cmn-t-shake" style="font-size:25px;background-color: rgba(53, 51, 51, 0.278431); border-color:rgba(53, 51, 51, 0.278431)">Únete</a>
+            <a href="#unete" class="btn btn-lg btn-primary cmn-t-shake boton-unete page-scroll" >Únete</a>
           </div>
         </div>
       </div>
@@ -56,18 +62,19 @@
     <div class="section" style="background-color:">
       <div class="container">
         <div class="row">
-          <div class="col-md-12" style="margin-bottom: 18px; width:100%;" draggable="true">
-            <p class="text-center" style="font-size:40;margin-bottom:10px;width:100%;color:#000">¿QUIÉNES SOMOS?</p>
+          <div class="col-md-12" style="margin-bottom: 18px" draggable="true">
+            <p id="quien" class="text-center tittle-quienes" >¿QUIÉNES SOMOS?</p>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4" draggable="true">
-            <img src="cohete.jpg" class="img-responsive" style="width:80%">
+            <img src="cohete.jpg" class="img-responsive img-cohete">
           </div>
-          <div class="col-md-7" style="font-size: 18px;color:#000">
+          <div class="col-md-7 text-quienes" >
             <p>¡Hola Mujer! Si sabes que es programar, has programado o estás aprendiendo,
               eres una PIONERA ¡Felicitaciones!
               <br>
+
               <br>Te invitamos a hacer parte de esta comunidad autogestionada, que crecen
               día a día en todo el mundo, espacios perfectos, para la innovación,y aprendizaje,
               esta comunidad se centra en mujeres para acortar la brecha que existe en
@@ -80,16 +87,21 @@
         </div>
         <div class="row">
           <div class="col-md-12" style="text-align:center">
-            <a class="btn btn-lg btn-primary cmn-t-translate-bshadow" style="font-size:25px;background-color:#F99232;margin-top:10px;margin-left:-220px;border-color:#F99232">SABER MÁS</a>
+            <a  href="http://www.meetup.com/es/PionerasDevelopers/"  class="btn btn-lg btn-primary cmn-t-translate-bshadow buton-sabermas" target="_blank" style="background-color:#F99232;border-color: #F99232">SABER MÁS</a>
           </div>
         </div>
       </div>
     </div>
-    <div class="section" style="background-color:#424242; width:100%">
+    
+      </div>
+  </div>
+
+    </div>
+    <div class="section" style="background-color:#424242">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <p class="text-center" style="font-size:30px;color:#fff; margin-bottom:60px">TECNOLOGIAS:</p>
+            <p class="text-center tit-tec">TECNOLOGÍAS:</p>
           </div>
         </div>
         <div class="row" style="margin-bottom:0px">
@@ -98,7 +110,7 @@
               <div class="ch-info">
                 <div class="ch-info-front ch-img-2"></div>
                 <div class="ch-info-back">
-                  <h3>Ruby</h3>
+                  <a href="#"><h3 class="back-mar" >Ruby</h3></a>
                   <br>
                   <br>
                   <p>Un lenguaje de programación dinámico y de código abierto.
@@ -114,7 +126,7 @@
               <div class="ch-info">
                 <div class="ch-info-front ch-img-4"></div>
                 <div class="ch-info-back">
-                  <h3>Phyton</h3>
+                  <a href="#"><h3 class="back-mar">Phyton</h3></a>
                   <br>
                   <br>
                   <p>Un lenguaje de programación poderoso y fácil de aprender.
@@ -129,7 +141,7 @@
               <div class="ch-info">
                 <div class="ch-info-front ch-img-5"></div>
                 <div class="ch-info-back">
-                  <h3>Nodejs</h3>
+                  <a href="#"><h3 class="back-mar">Nodejs</h3></a>
                   <br>
                   <br>
                   <p>Un entorno en tiempo de ejecución multiplataforma de código abierto.
@@ -144,7 +156,7 @@
               <div class="ch-info">
                 <div class="ch-info-front ch-img-6"></div>
                 <div class="ch-info-back">
-                  <h3>php</h3>
+                  <a href="#"><h3 class="back-mar">php</h3></a>
                   <br>
                   <br>
                   <p>Un lenguaje de código abierto muy popular,adecuado para desarrollo web.
@@ -160,25 +172,25 @@
     <div class="section" style="background-color:E29822">
       <div class="container">
         <div class="row">
-          <div class="col-md-2" style="width:100%">
-            <h1 style="text-align:center">MEETUPS&nbsp;</h1>
+          <div class="col-md-2 meet-wth">
+            <h1  id="meet" style="text-align:center">MEETUPS&nbsp;</h1>
           </div>
         </div>
       </div>
     </div>
     <div class="section" style="background-color:E29822">
-      <div class="container">
-        <div class="row" style="margin-left:4%">
-          <div class="col-md-5" style="background:#FAFAFA;padding-bottom:12px">
-            <img src="meetupgroupphotoalbum/1.jpeg" class="img-responsive" style="width:93.3%;margin-left:-16px">
+      <div class="container ">
+        <div class="row margin-meep" >
+          <div class="col-md-5 conti-meep1">
+            <img src="meetupgroupphotoalbum/1.jpeg" class="img-responsive cont-meepimg">
           </div>
-          <div class="col-md-7" style="margin-left:-70px;background-color:#FAFAFA;padding-bottom:12px">
-            <p style="color:000; width:20%; display:inline-block;font-size:25px;text-align:center;border-right:grey 1px solid;margin-top:9px">
-              <strong style="font-size:50px;color:E29822">19</strong>
+          <div class="col-md-7 cont-meeptext" >
+            <p style="color:000;display:inline-block;font-size:25px;text-align:center;border-right:grey 1px solid;margin-top:9px">
+              <strong class="numero">19</strong>
               <br>
-              <strong>Abril</strong>
+              <strong class="mes">Abril</strong>
             </p>
-            <p style="width:30%;display:inline-block;text-align:center;font-size:29px">
+            <p class="hora-lugar">
               <strong>Hora:18:00
                 <br>Lugar:RutaN</strong>
             </p>
@@ -193,19 +205,19 @@
           </div>
         </div>
       </div>
-      <div class="section" style="background-color:E29822">
+      <div class="section" style="background-color:E29822;padding-bottom:100px">
         <div class="container">
-          <div class="row" style="margin-left:4%">
+          <div class="row conti-meep2">
             <div class="col-md-5" style="background:#FAFAFA">
-              <img src="llamadopioneras /3.jpeg" class="img-responsive" style="width:87%;margin-left:-16">
+              <img src="llamadopioneras /3.jpeg" class="img-responsive conti-img2">
             </div>
-            <div class="col-md-7" style="margin-left:-70px;color:000;background-color:#FAFAFA">
-              <p style="color:000; width:20%; display:inline-block;font-size:25px;text-align:center;border-right:grey 1px solid;margin-top:9px">
-                <strong style="font-size:50px;color:E29822">30</strong>
+            <div class="col-md-7 cont-meeptext2">
+              <p style="color:000;display:inline-block;font-size:25px;text-align:center;border-right:grey 1px solid;margin-top:9px">
+                <strong class="numero">30</strong>
                 <br>
-                <strong>Abril</strong>
+                <strong class="mes">Abril</strong>
               </p>
-              <p style="width:30%;display:inline-block; font-size:29px;text-align:center">
+              <p class="hora-lugar">
                 <strong>Hora:13:45
                   <br>Lugar:RutaN</strong>
               </p>
@@ -220,27 +232,26 @@
           </div>
         </div>
       </div>
-      <div class="section" style="background-color:fff">
+      <div class="section" style="background-color:fff;padding: 0">
         <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="text-center">GALERÍA</h1>
-              <br>
-              <br>
+          <div class="row" style="height: 0px">
+            <div class="col-md-12" style="text-align:center;height:0px;min-height: 0px;">
+              <input type="button" class="btn boton-galeria" data-toggle="collapse" data-target="#prueba" value=" GALERÍA">
             </div>
           </div>
+          <div id="prueba" class="collapse off" style="padding: 80px 0px 50px;height: 130px;">
           <div class="row">
-            <div class="col-md-3">
-              <a href="#box1" id="imgpionera1"><img class="img-responsive read-more-wrap " src="meetupgroupphotoalbum/1.jpeg"></a>
+            <div class="col-sm-6 col-md-3">
+              <a href="#box1" id="imgpionera1"><img class="img-responsive gallery-wth1" src="meetupgroupphotoalbum/3.jpeg"></a>
             </div>
             <div class="lightbox" id="box1" onclick="window.location='#imgpionera1'">
               <div class="box">
                 <a class="close-popup-trayectoria" href="#imgpionera1">X</a>
                 <div class="content">
-                  <img src="meetupgroupphotoalbum/1.jpeg">
+                  <img src="meetupgroupphotoalbum/3">
                   <p>
                     <!-- Previous Image Button -->
-                    <a class="prev" href="#box14"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <a class="prev" href="#box4"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
                     <!-- Next Image Button -->
                     <a class="next" href="#box2"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
                   </p>
@@ -248,14 +259,14 @@
                 <div class="clear"></div>
               </div>
             </div>
-            <div class="col-md-3" style="font-size:25px">
-              <a href="box2" id="imgpionera2"><img class="img-responsive read-more-wrap" style="width:76%" src="Comparteloqueeres/1.jpeg"></a>
+            <div class="col-sm-6 col-md-3" style="font-size:25px">
+              <a href="#box2" id="imgpionera2"><img class="img-responsive gallery-wth2"  src="Comparteloqueeres/20.jpg"></a>
             </div>
             <div class="lightbox" id="box2" onclick="window.location='#imgpionera2'">
               <div class="box">
                 <a class="close-popup-trayectoria" href="#imgpionera2">X</a>
                 <div class="content">
-                  <img src="Comparteloqueeres/1.jpeg">
+                  <img src="Comparteloqueeres/20.jpg">
                   <p>
                     <!-- Previous Image Button -->
                     <a class="prev" href="#box1"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
@@ -266,14 +277,14 @@
                 <div class="clear"></div>
               </div>
             </div>
-            <div class="col-md-3" style="font-size:25px">
-              <a href="box3" id="imgpionera3"><img src="llamadopioneras /1.jpeg" class="img-responsive read-more-wrap" style="width:90%;" align:center=""></a>
+            <div class="col-sm-6 col-md-3" style="font-size:25px">
+              <a href="#box3" id="imgpionera3"><img src="meetupgroupphotoalbum/10.jpeg" class="img-responsive gallery-wth "></a>
             </div>
             <div class="lightbox" id="box3" onclick="window.location='#imgpionera3'">
               <div class="box">
                 <a class="close-popup-trayectoria" href="#imgpionera3">X</a>
                 <div class="content">
-                  <img src="llamadopioneras /1.jpeg">
+                  <img src="meetupgroupphotoalbum/10.jpeg">
                   <p>
                     <!-- Previous Image Button -->
                     <a class="prev" href="#box2"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
@@ -284,8 +295,8 @@
                 <div class="clear"></div>
               </div>
             </div>
-            <div class="col-md-3" style="font-size:25px">
-              <a href="#box4" id="impionera4"><img src="PrimeraReunion/4.jpeg" class="img-responsive read-more-wrap"></a>
+            <div class="col-sm-6 col-md-3" style="font-size:25px">
+              <a href="#box4" id="imgpionera4"><img src="PrimeraReunion/4.jpeg" class="img-responsive gallery-wth2"></a>
             </div>
             <div class="lightbox" id="box4" onclick="window.location='#imgpionera4'">
               <div class="box">
@@ -302,15 +313,312 @@
                 <div class="clear"></div>
               </div>
             </div>
-          </div>
         </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <a href="#box5" id="imgpionera5"><img class="img-responsive gallery-wth3" src="meetupgroupphotoalbum/15.jpeg"></a>
+            </div>
+            <div class="lightbox" id="box5" onclick="window.location='#imgpionera5'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera5">X</a>
+                <div class="content">
+                  <img src="meetupgroupphotoalbum/15.jpeg">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box4"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box6"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px">
+              <a href="#box6" id="imgpionera6"><img class="img-responsive gallery-wth2"  src="PrimeraReunion/2.jpeg"></a>
+            </div>
+            <div class="lightbox" id="box6" onclick="window.location='#imgpionera6'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera6">X</a>
+                <div class="content">
+                  <img src="PrimeraReunion/2.jpeg">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box5"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box7"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px">
+              <a href="#box7" id="imgpionera7"><img src="PrimeraReunion/3.jpeg" class="img-responsive gallery-wth4"></a>
+            </div>
+            <div class="lightbox" id="box7" onclick="window.location='#imgpionera7'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera7">X</a>
+                <div class="content">
+                  <img src="PrimeraReunion/3.jpeg">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box6"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box8"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px">
+              <a href="#box8" id="imgpionera8"><img src="PrimeraReunion/5.jpeg" class="img-responsive gallery-wth2"></a>
+            </div>
+            <div class="lightbox" id="box8" onclick="window.location='#imgpionera8'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera8">X</a>
+                <div class="content">
+                  <img src="PrimeraReunion/5.jpeg">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box7"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box9"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <a href="#box9" id="imgpionera9"><img class="img-responsive gallery-wth1" src="llamadopioneras /2.jpeg"></a>
+            </div>
+            <div class="lightbox" id="box9" onclick="window.location='#imgpionera9'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera9">X</a>
+                <div class="content">
+                  <img src="llamadopioneras /2.jpeg">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box8"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box10"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px">
+              <a href="#box10" id="imgpionera10"><img class="img-responsive gallery-wth2"  src="meetupgroupphotoalbum/11.jpeg"></a>
+            </div>
+            <div class="lightbox" id="box10" onclick="window.location='#imgpionera10'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera10">X</a>
+                <div class="content">
+                  <img src="meetupgroupphotoalbum/11.jpeg">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box9"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box11"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px">
+              <a href="#box11" id="imgpionera11"><img src="meetupgroupphotoalbum/12.jpeg" class="img-responsive gallery-wth2"></a>
+            </div>
+            <div class="lightbox" id="box11" onclick="window.location='#imgpionera11'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera11">X</a>
+                <div class="content">
+                  <img src="meetupgroupphotoalbum/12.jpeg">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box10"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box12"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px">
+              <a href="#box12" id="imgpionera12"><img src="meetupgroupphotoalbum/13.jpeg" class="img-responsive gallery-wth2"></a>
+            </div>
+            <div class="lightbox" id="box12" onclick="window.location='#imgpionera12'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera12">X</a>
+                <div class="content">
+                  <img src="meetupgroupphotoalbum/13.jpeg">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box11"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box13"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <a href="#box13" id="imgpionera13"><img class="img-responsive gallery-wth1" src="meetupgroupphotoalbum/14.jpeg"></a>
+            </div>
+            <div class="lightbox" id="box13" onclick="window.location='#imgpionera13'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera13">X</a>
+                <div class="content">
+                  <img src="meetupgroupphotoalbum/14.jpeg">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box12"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box1"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px; display:none">
+              <a href="#" id="imgpioner"><img class="img-responsive gallery-wth2"  src=""></a>
+            </div>
+            <div class="lightbox" id="" onclick="window.location='#imgpioner'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpioner">X</a>
+                <div class="content">
+                  <img src="">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px;display:none">
+              <a href="#" id="imgpioner"><img src="" class="img-responsive gallery-wth "></a>
+            </div>
+            <div class="lightbox" id="" onclick="window.location='#imgpioner'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpioner">X</a>
+                <div class="content">
+                  <img src="">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px;display:none">
+              <a href="#" id="imgpioner"><img src="" class="img-responsive gallery-wth2"></a>
+            </div>
+            <div class="lightbox" id="" onclick="window.location='#imgpioner'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpioner">X</a>
+                <div class="content">
+                  <img src="">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#box15"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#box1"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-3" style="display:none">
+              <a href="#" id="imgpionera15"><img class="img-responsive gallery-wth1" src=""></a>
+            </div>
+            <div class="lightbox" id="" onclick="window.location='#imgpionera15'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera15">X</a>
+                <div class="content">
+                  <img src="">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px;display:none">
+              <a href="#" id="imgpionera16"><img class="img-responsive gallery-wth2"  src=""></a>
+            </div>
+            <div class="lightbox" id="" onclick="window.location='#imgpionera16'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera16">X</a>
+                <div class="content">
+                  <img src="">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px;display:none">
+              <a href="#" id="imgpionera17"><img src="" class="img-responsive gallery-wth "></a>
+            </div>
+            <div class="lightbox" id="" onclick="window.location='#imgpionera17'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera17">X</a>
+                <div class="content">
+                  <img src="">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3" style="font-size:25px;display:none">
+              <a href="#" id="imgpionera18"><img src="" class="img-responsive gallery-wth2"></a>
+            </div>
+            <div class="lightbox" id="" onclick="window.location='#imgpionera18'">
+              <div class="box">
+                <a class="close-popup-trayectoria" href="#imgpionera18">X</a>
+                <div class="content">
+                  <img src="">
+                  <p>
+                    <!-- Previous Image Button -->
+                    <a class="prev" href="#"><i class=" fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <!-- Next Image Button -->
+                    <a class="next" href="#"><i class=" fa fa-chevron-right" aria-hidden="true"></i></a>
+                  </p>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </div>
+          </div>
+
       </div>
+    </div>
       <div style="margin-left:50%"></div>
-      <div class="section" style="background-color:5B5B5B">
+      <div class="section" style="background-color:5B5B5B;padding-top: 80px;">
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center" style="color:fff">PIONERAS</h1>
+              <h1 class="text-center pioneras-wth">PIONERAS</h1>
               <p class="text-center">
                 <br>
               </p>
@@ -318,30 +626,30 @@
           </div>
           <div class="row">
             <div class="col-md-3" style="">
-              <a href="https://navepionera.github.io/pioneras_paginas/angela.html" target="_blank"><img src="Angela.png" style="width:60%; margin-left:50px" class=" img-circle img-responsive cmn-t-scale"></a>
-              <p style="font-size:22px; text-align:center; margin-top:7px; color:#fff">Angela Ordoñez</p>
+              <a href="https://navepionera.github.io/pioneras_paginas/angela.html" target="_blank"><img src="Angela.png" class=" img-circle img-responsive cmn-t-scale imgperfil1"></a>
+              <p class="nomb-perfil">Angela Ordoñez</p>
               <br>
             </div>
             <div class="col-md-3">
-              <a href="https://navepionera.github.io/pioneras_paginas/olga.html" target="_blank"><img src="./olga.jpg" class="img-circle img-responsive cmn-t-scale " style="width:60%;margin-left:20%"></a>
-              <p style="font-size:22px; text-align:center; margin-top:7px; color:#fff">Olga Janeth Marin</p>
+              <a href="https://navepionera.github.io/pioneras_paginas/olga.html" target="_blank"><img src="./olga.jpg" class="img-circle img-responsive cmn-t-scale imgperfil2"></a>
+              <p class="nomb-perfil">Olga Janeth Marin</p>
             </div>
             <div class="col-md-3">
-              <a href="https://navepionera.github.io/pioneras_paginas/camila.html" target="_blank"><img class="img-circle img-responsive cmn-t-scale" style="width:60%; height:21%;margin-left:20%" src="Maria-camila1.jpg"></a>
-              <p style="font-size:22px; text-align:center; margin-top:7px;color:#fff">Maria Camila Gomez</p>
+              <a href="https://navepionera.github.io/pioneras_paginas/camila.html" target="_blank"><img src="Maria-camila1.jpg" class="img-circle img-responsive cmn-t-scale imgperfil3"></a>
+              <p class="nomb-perfil">Maria Camila Gomez</p>
             </div>
             <div class="col-md-3">
-              <a href="https://navepionera.github.io/pioneras_paginas/Johana.html" target="_blank"> <img src="johana1.jpg" class="img-circle img-responsive cmn-t-scale" style="width:60%; height:21%; margin-left:20%"></a>
-              <p style="font-size:22px; text-align:center; margin-top:7px;color:#fff">Johana Córdoba Giraldo</p>
+              <a href="https://navepionera.github.io/pioneras_paginas/Johana.html" target="_blank"> <img src="johana1.jpg" class="img-circle img-responsive cmn-t-scale imgperfil4"></a>
+              <p class="nomb-perfil">Johana Córdoba Giraldo</p>
             </div>
           </div>
         </div>
       </div>
       <div class="section" style="background-color:#FAFAFA">
         <div class="container">
-          <div class="row">
+          <div class="row ">
             <div class="col-md-12">
-              <h1 style="text-align:center;padding-bottom:40px; border-bottom:#F99232 2px solid;">NUESTROS PATROCINADORES</h1>
+              <h1  class="title-patros">NUESTROS PATROCINADORES</h1>
             </div>
           </div>
         </div>
@@ -349,9 +657,9 @@
       <div style="background-color:#FAFAFA" class="section">
         <div class="container">
           <div class="row">
-            <div class="col-md-4" style="width:20%;border-right:#F99232 3px solid">
-              <a href="http://medellinjs.org/"><img src="medjs.jpeg" class="img-responsive" style="width:60%; margin-left:38px" target="_blank"></a>
-              <h2 style="text-align:center">Medellin JS</h2>
+            <div class=" col-xs-12 col-sm-4 col-md-2 patros">
+              <a href="http://medellinjs.org/" target="_blank"><img src="medjs.jpeg" class="img-responsive img-medjs"target="_blank"></a>
+              <h2  class="font-patros" style="text-align:center">Medellin JS</h2>
               <br>
               <p style="text-align:center">NodeSchool / Refrigerios
                 <br>NodeSchool / Refrigerios
@@ -360,14 +668,14 @@
                 <br>
               </p>
             </div>
-            <div class="col-md-4" style="width:20%;width:20%;border-right:#F99232 3px solid">
-              <a href="https://www.growthaccelerationpartners.com/"><img src="partners.jpeg" class="img-responsive" style="width:65%;margin-left:38px" target="_blank"></a>
-              <h2 style="text-align:center">Growth Acceleration Partners</h2>
+            <div class="col-xs-12 col-sm-4 col-md-2 patros">
+              <a href="https://www.growthaccelerationpartners.com/" target="_blank"><img src="partners.jpeg" class="img-responsive img-acce" target="_blank"></a>
+              <h2 class="font-patros" style="text-align:center">Growth Acceleration Partners</h2>
               <p style="text-align:center">Identificación / Motivación / Gamificación</p>
             </div>
-            <div class="col-md-4" style="width:20%;width:20%;border-right:#F99232 3px solid">
-              <a href="http://www.makeitreal.camp/"><img src="M.jpeg" class="img-responsive" style="width:60%;margin-left:38px" target="_blank"></a>
-              <h2 style="text-align:center">Make It Real Camp</h2>
+            <div class="col-xs-12 col-sm-4 col-md-2 patros">
+              <a href="http://www.makeitreal.camp/"><img src="M.jpeg" class="img-responsive img-make"  target="_blank"></a>
+              <h2 class="font-patros" style="text-align:center">Make It Real Camp</h2>
               <p style="text-align: center;">Plataforma Encuestas / Advisor
                 <br>
                 <br>
@@ -375,9 +683,9 @@
                 <br>
               </p>
             </div>
-            <div class="col-md-4" style="width:20%;width:20%;border-right:#F99232 3px solid">
-              <a href="http://www.rutanmedellin.org/es"><img src="rutaN.jpeg" class="img-responsive" style="width:70%;margin-left:29px" target="_blank"></a>
-              <h2 style="text-align:center">RutaN</h2>
+            <div class="col-xs-12 col-sm-4 col-md-2 patros">
+              <a href="http://www.rutanmedellin.org/es" target="_blank"><img src="rutaN.jpeg" class="img-responsive img-rutan" target="_blank"></a>
+              <h2 class="font-patros" style="text-align:center">RutaN</h2>
               <br>
               <p style="text-align:center">Espacio para charlas
                 <br>
@@ -387,9 +695,9 @@
                 <br>
               </p>
             </div>
-            <div class="col-md-4" style="width:20%">
-              <a href="https://www.facebook.com/vivelabmedellin"><img src="vivelab.jpeg" class="img-responsive" style="width:60%;margin-left:38px" target="_blank"></a>
-              <h2 style="text-align:center">ViveLab</h2>
+            <div class="col-xs-12 col-sm-4 col-md-2 patros">
+              <a href="https://www.facebook.com/vivelabmedellin" target="_blank"><img src="vivelab.jpeg" class="img-responsive img-vive" target="_blank"></a>
+              <h2 class="font-patros" style="text-align:center">ViveLab</h2>
               <p style="text-align:center">Venue Taleres - espacio
                 <br>dotado con tecnologia
                 <br>para 25 personas</p>
@@ -401,27 +709,27 @@
         <div class="container">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center">ÚNETE A NOSOTRAS</h1>
+              <h1 id="unete" class="text-center">ÚNETE A NOSOTRAS</h1>
             </div>
           </div>
-          <p style="text-align: center;">Ingresa tus datos para recibir noticias via email
+          <p style="text-align: center;">Ingresa tus datos para recibir noticias vía email
             <br>
             <br>
           </p>
           <div class="row">
             <div class="col-md-offset-3 col-md-6">
-              <form role="form">
+              <form role="form" method="post" action="index.php">
                 <div class="form-group" style="margin-bottom:20px">
                   <div class="input-group" style="width:100%">
-                    <input type="text" class="form-control" placeholder="Ingresa tu nombre">
+                    <input id="nombre" type="text" class="form-control" placeholder="Ingresa tu nombre">
                   </div>
                   <br>
                   <div class="input-group" style="width:100%">
-                    <input type="text" class="form-control" placeholder="Ingresa tu apellido">
+                    <input  id="apellido"type="text" class="form-control" placeholder="Ingresa tu apellido">
                   </div>
                   <br>
                   <div class="input-group" style="width:100%">
-                    <input type="text" class="form-control" placeholder="Ingresa tu email">
+                    <input id="email" type="text" class="form-control" placeholder="Ingresa tu email">
                   </div>
                 </div>
               </form>
@@ -435,7 +743,7 @@
         </div>
       </div>
       <footer class="section section-primary" style="background-color:#F99232;height:0px">
-        <div class="container" style="background-color:#F99232; width:100%;height:110px;margin-top:-40">
+        <div class="container footer-ep">
           <div class="row">
             <div class="col-sm-6">
               <p style="font-size:24px; margin-top:20px">
@@ -455,7 +763,7 @@
                 </div>
               </div>
               <div class="row" style="margin-top:30px">
-                <div class="col-md-6" style="">
+                <div class="col-md-6 siguenos-marg" >
                   <p style="font-size: 24px; text-align:center">Síguenos También En:
                     <br>
                   </p>
@@ -473,9 +781,30 @@
       </footer>
       <i class="ion-chevron-right"></i>
     </div>
+    <script type="text/javascript">
+    $(window).scroll(function(){
+     if ($(window).scrollTop()> 300) 
+     {
+      $('a.back-to-top').fadeIn('fast');
+     } else 
+     {
+      $('a.back-to-top').fadeOut('fast');
+     }
+    })
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
+>>>>>>> master
+=======
+    $('a.back-to-top').click(function(){
+       $('body').animate({
+        scrollTop:0
+     },1000);
+
+      return false;
+    })
+    </script>
 >>>>>>> master
 </body></html>
