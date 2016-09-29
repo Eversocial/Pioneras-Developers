@@ -146,7 +146,7 @@
 .cmn-t-scale {
   padding: 0px 0px;
   color: #fff;
-  background-color: #ff3296;
+  background-color: #000;
   /* transition: transform 0.2s; */
 }
 .cmn-t-scale:hover {
@@ -7272,7 +7272,7 @@ body {
 }
 .pioneras-wth{
     color: #fff;
-    width: 86%;
+    width: 1140px;
 }
 .imgperfil1 {
     width: 60%;
@@ -7371,7 +7371,7 @@ width: 65%;
 }
 .footer-ep{
     background-color: #F99232;
-    width: 100%;
+    width: 100% !important;
     height: 110px;
     margin-top: -40px;
 }
@@ -7399,6 +7399,55 @@ width: 65%;
 }
 .mes{ 
     padding-right: 8px;
+}
+.imgperfilw{
+    width: 157px;
+    margin-left: 16%;
+    margin-right: 16%;
+    height: 148px !important;
+}
+
+
+/*------------------------CLASES MODIFICADAS DEL SLIDE------------------*/
+.carousel .item img {
+    min-width: 100px !important;
+        margin-top: 10px;
+}
+.carousel-inner {
+    position: relative;
+    width: 1100px !important;
+    overflow: hidden;
+}
+.carousel-control .glyphicon-chevron-left {
+    margin-left: -74px !important;
+    display: none !important;
+}
+.carousel-control .glyphicon-chevron-right {
+    margin-right: -59px !important;
+    display: none !important;
+}
+.carousel-indicators {
+    bottom: -7px !important;
+}
+/*anulamos el degradado natural de los alterales*/
+.carousel-control.left { 
+    background-image: none !important;
+     background-image: none !important;
+     background-image: none !important; 
+    background-repeat: repeat-x;
+}
+.carousel-control.right {
+    
+    background-image: none !important;
+    background-image: none !important;
+    background-image: none !important;
+    background-repeat: repeat-x;
+}
+.carousel-indicators li {
+      background-color: #F99232 !important;
+}
+.carousel-indicators .active{
+      border: 1px solid #F99232;
 }
 
 /*----------------FINAL CLASES EDITABLES-------------------------------------*/
