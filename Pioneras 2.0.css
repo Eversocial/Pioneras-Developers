@@ -1462,7 +1462,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 95%;
+  max-width: 100%;
   height: auto;
 }
 .img-rounded {
@@ -6553,7 +6553,7 @@ button.close {
   height: 10px;
   margin: 1px;
   text-indent: -999px;
-  border: 1px solid #ffffff;
+  border: 1px solid #F99232 !important;
   border-radius: 10px;
   cursor: pointer;
   background-color: #000 \9;
@@ -7151,7 +7151,7 @@ a:hover{
 }
 .menu-supredes{
   display: inline-block;
-  margin-left: 94px;
+  margin-left: 149px;
 }
 .btn-primary:hover{
       background-color: #CE792A !important;
@@ -7178,7 +7178,7 @@ a:hover{
 
 .boton-donar{
     display: inline-block !important;
-    margin-left: 136px !important;
+    margin-left: 171px !important;
     font-size: 16px;
     margin-right: 0px;
     margin-top: 11px;
@@ -7200,11 +7200,12 @@ a:hover{
     font-size: 30;
     margin-bottom: 10px;
     color: #000;
+    margin-left: -87px;
 }
 .buton-sabermas{
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
-    margin-left: -220px;
+    float: right;
 }
 .nav-bar-orange {
     display: inline;
@@ -7216,8 +7217,11 @@ a:hover{
 }
 
 .img-cohete {
-    width: 300px;
-    height: 200px;
+    width: 317px;
+    height: 278px;
+    padding-left: 15px;
+    margin-left: 21px;
+    margin-top: 5px;
 }
 .text-quienes{
   font-size: 18px;
@@ -7266,7 +7270,7 @@ a:hover{
     color: 000;
     background-color: #FAFAFA;
     width: 643px;
-    height: 280px;
+    height: 293px;
 }
 .boton-galeria{
     background-color: #F99232;
@@ -7276,29 +7280,29 @@ a:hover{
     position: relative;
     top: -27px;
 }
-.gallery-wth {
-     width: 350px;
-}
+
 .gallery-wth2{
-   width: 221px;
+   width: 211px;
 
 }
-.gallery-wth1{
-   width: 258px;
-}
-.gallery-wth3
-{
-  width: 241px;
-  height: 168px;
+.gallery-wth{
+ width: 211px;
 }
 .gallery-wth4{
-   width: 244px;
-    height: 162px;
+  width: 206px;
 }
-.gallery-wth5 {
-  margin-top: 10px;
-    width: 242px;
+
+.gallery-wth1{
+ width: 205px;
 }
+.gallery-wth5{
+width: 216px;
+}
+.gallery-wth6{
+  width: 216px;
+  height: 158px;
+}
+
 .pioneras-wth{
     color: #fff;
     width: 1140px;
@@ -7345,13 +7349,30 @@ a:hover{
   margin-top: 7px;
   color: #fff;
 }
+.amount {
+    position: relative;
+    top: -1px;
+    padding: 0 0.1em 0.1em 1em;
+    margin: 0 0.1em 0 -0.4em;
+    display: inline-block;
+    width: 4em;
+    color: inherit;
+    background-color: rgba(63,59,57,0.1);
+    border: 2px solid rgba(63,59,57,0.2);
+}
+
+.large {
+    font-size: 24px !important;
+  }
+
+
 .margin-patros {
     margin-left: 100px;
 }
 .patros{
-  border-right: #F99232 3px solid;
   margin-left: 100px;
-  border-right: #F99232 3px solid;
+  border-right:none;
+  width: 109px;
 }
 .text-medjs{
   text-align: center;
@@ -7374,24 +7395,31 @@ font-size: 26px;
       font-size: 26px;
 }
 .img-medjs{
-  width: 60%;
+  width: 100px;
+    margin-left: 38px;
+    width: 57px;
+    height: 60px;
+    margin-top: -19px;
     margin-left: 38px;
 }
 .img-acce{
-width: 65%;
+    width: 154px;
     margin-left: 38px;
 }
 .img-make{
-     width: 60%;
+   width: 146px;
     margin-left: 38px;
+    margin-top: -8px;
 }
 .img-rutan{
-  width: 70%;
-    margin-left: 29px;
+  width: 132px;
+  margin-left: 29px;
+  margin-top: -20px;
 }
 .img-vive{
-     width: 60%;
+     width: 132px;
     margin-left: 38px;
+    margin-top: -26px;
 }
 .margin-sigsocial{
   font-size: 24px;
@@ -7407,8 +7435,8 @@ width: 65%;
 .title-patros{
     text-align: center;
     padding-bottom: 40px;
-    border-bottom: #F99232 2px solid;
     font-size: 30px;
+    margin-bottom: -60px;
   }
   .siguenos-marg{
   margin-top: 0px;
