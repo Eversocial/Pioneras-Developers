@@ -7159,10 +7159,11 @@ a:hover{
 }
 
 .logo-pioneras {
-    width: 90px;
-    margin-left:30px; 
-    display:inline;
-}
+    width: 199px;
+    margin-top: 17px;
+    margin-left: 30px;
+    display: inline;
+  }
 .titulo-pio{
   width: 1119px;
 }
@@ -7209,9 +7210,10 @@ a:hover{
 }
 .nav-bar-orange {
     display: inline;
-    margin-top: 29px;
-    margin-left: 181px !important;
-}
+    margin-top: 24px;
+    margin-left: 127px !important;
+  }
+
 .font-redessup{
   font-size: 20px;
 }
@@ -7395,31 +7397,29 @@ font-size: 26px;
       font-size: 26px;
 }
 .img-medjs{
-  width: 100px;
-    margin-left: 38px;
-    width: 57px;
+    width: 77px;
     height: 60px;
-    margin-top: -19px;
-    margin-left: 38px;
+    margin-top: -9px;
+    margin-left: 18px;
 }
 .img-acce{
-    width: 154px;
-    margin-left: 38px;
+    width: 152px;
+   margin-left: -20px;
 }
 .img-make{
-   width: 146px;
-    margin-left: 38px;
-    margin-top: -8px;
+    width: 141px;
+    margin-left: 17px;
+    margin-top: -13px;
 }
 .img-rutan{
-  width: 132px;
-  margin-left: 29px;
-  margin-top: -20px;
+    width: 86px;
+    margin-left: 52px;
+    margin-top: -11px;
 }
 .img-vive{
-     width: 132px;
-    margin-left: 38px;
-    margin-top: -26px;
+    width: 96px;
+    margin-left: 18px;
+    margin-top: -24px;
 }
 .margin-sigsocial{
   font-size: 24px;
