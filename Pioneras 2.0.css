@@ -7193,10 +7193,10 @@ a:hover{
     font-size: 30px;
     margin-bottom: 10px;
     color: #000;
-    margin-left: -383px;
+    float: left;
 }
 .tittle-doscientas{
-    font-size: 30;
+    font-size: 30px;
     margin-bottom: 10px;
     color: #000;
     margin-left:-33px;
