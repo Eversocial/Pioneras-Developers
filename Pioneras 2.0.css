@@ -7245,25 +7245,26 @@ a:hover{
    margin-left: 45px !important;
 }
 .conti-meep1 {
-    background: #FAFAFA;
-    padding-bottom: 38px;
+  background: #FAFAFA;
+  padding-bottom: 0px;
+  padding-left: 2px;
 }
 .cont-meepimg {
-     width: 345px;
+     width: 388px;
     margin-left: -2px;
     padding-left: 0px;
 }
 .cont-meeptext {
     margin-left: -70px;
     background-color: #FAFAFA;
-    padding-bottom: 12px;
+    padding-bottom: 25px;
 }
 .conti-meep2 {
     margin-left: 45px !important;
 }
 .conti-img2 {
-    width: 375px;
-    margin-left: -16;
+    width: 380px;
+
 }
 
 .cont-meeptext2 {
@@ -7271,7 +7272,7 @@ a:hover{
     color: 000;
     background-color: #FAFAFA;
     width: 643px;
-    height: 293px;
+    height: 330px;
 }
 .boton-galeria{
     background-color: #F99232;
