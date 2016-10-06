@@ -7143,7 +7143,7 @@ a:hover{
 }
 .menu-supredes{
   display: inline-block;
-  margin-left: 75 px;
+  margin-left: 75px;
 }
 .btn-primary:hover{
       background-color: #CE792A !important;
@@ -8101,7 +8101,7 @@ a:hover.back-to-top {
 
 .sfooter{
   background-color: #F99232;
-  padding: 30px 0px 5px;
+  padding: 30px 0px 45px;
 }
 
 .sfooter .font-mbtx{
