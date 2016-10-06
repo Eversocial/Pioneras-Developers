@@ -7145,7 +7145,8 @@ a:hover{
 }
 .menu-supredes{
   display: inline-block;
-  margin-left: -181px;
+  margin-right: 89px;
+  float: right;
 }
 .btn-primary:hover{
       background-color: #CE792A !important;
@@ -7188,7 +7189,7 @@ a:hover{
     margin-right: 0px;
 }
 .menu-fontsize{
-  font-size:16px;
+  font-size:15px;
   color:#fff;
 }
 .tittle-quienes{
@@ -7211,8 +7212,8 @@ a:hover{
 }
 .nav-bar-orange {
     display: inline;
-    margin-top: 24px;
-    margin-left: 297px !important;
+    margin-top: 4px;
+    margin-left: 72px !important;
   }
 
 .font-redessup{
@@ -7666,7 +7667,7 @@ font-size: 26px;
 }
 
 .menu-fontsize{
-    font-size: 20px !important;
+    font-size: 19px !important;
 }
 .ch-item {
     width: 194px !important;
