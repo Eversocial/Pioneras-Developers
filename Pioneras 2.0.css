@@ -7070,6 +7070,7 @@ body {
   width: 100%;
   border: none;
   background-color: transparent;
+  padding-bottom: 10px;
 }
 .cover .navbar .navbar-nav li.active a {
   background-color: transparent !important;
