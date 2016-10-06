@@ -1,20 +1,20 @@
 <?
-$name  = $_REQUEST["name"];
-$lastname  = $_REQUEST["lastname"];
+$nombre  = $_REQUEST["nombre"];
+$apellido  = $_REQUEST["apellido"];
+$usertwitter  = $_REQUEST["usertwitter"];
 $email = $_REQUEST["email"];
-$mobile = $_REQUEST["mobile"];
-$ciudad = $_REQUEST["ciudad"];
-$area  = $_REQUEST["area"];
-$coment  = $_REQUEST["coment"];
+$charla = $_REQUEST["charla"];
+$descriptionconference = $_REQUEST["descriptionconference"];
+$descriptionabout  = $_REQUEST["descriptionabout"];
+$recursos = $_REQUEST["recursos"];
 //$msg   = $_REQUEST["msg"];
-$to    = "comunicaciones@arquitecturayconcreto.com, marian@eversocial.co, desarrollo@eversocial.co"; // <--- Change email ID here
-if (isset($email) && isset($name)) {
-   $subject = "$name sent you a message via All in One Template";
+$to    = "desarrollo@eversocial.co"; // <--- Change email ID here
+if (isset($email) && isset($nombre)) {
+   $subject = "$nombre Mensaje de formulario de contacto de charlas Pioneras";
         $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=iso-8859-1" . "\r\n";
-$headers .= "From: ".$name." <".$email.">\r\n"."Reply-To: ".$email."\r\n" ;
-$msg     = "Mensaje enviado desde landing del proyecto Ciudad del Bosque<br/> Mensaje de: $name  $lastname<br/> Email: $email <br/> Teléfono: $mobile<br/> Ciudad: $ciudad<br/> Área: $area<br/> Comentarios: $coment  "; //<br/>Message: $msg
-    
+$headers .= "From: ".$nombre." <".$email.">\r\n"."Reply-To: ".$email."\r\n" ;
+$msg     = "Mensaje de aspirante a charla o conferencia en Pioneras Developers<br/> Mensaje de: $nombre $apellido<br/> Email: $email <br/> Usuario de Twitter: $twitter<br/> Nombre de la charla: $charla<br/> Breve descripción de la charla: $descriptionconference<br/> Breve descripción sobre mí (trayectoria, ocupación, etc) : $descriptionabout <br/> Recursos necesarios : $recursos ";
   $mail =  mail($to, $subject, $msg, $headers);
  if($mail)
     {

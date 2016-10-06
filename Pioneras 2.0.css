@@ -212,7 +212,7 @@ h1 {
 }
 .lightbox .box p {
   position: relative;
-  top: -320px;
+  top: -240px;
 }
 .lightbox .title {
   margin: 0;
@@ -243,8 +243,8 @@ h1 {
   display: block;
   text-decoration: none;
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 22px;
-  color: #858585;
+  font-size: 42px;
+  color: #ffffff;
 }
 .prev {
   float: left;
@@ -4404,7 +4404,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 4px;
+    border-radius: 0px;
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
      -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -7493,7 +7493,7 @@ font-size: 26px;
     display: none !important;
 }
 .carousel-indicators {
-    bottom: -17px !important;
+    bottom: -37px !important;
 }
 /*anulamos el degradado natural de los alterales*/
 .carousel-control.left {
