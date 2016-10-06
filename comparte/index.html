@@ -17,9 +17,8 @@
   <body>
     <a href="#" class="back-to-top">Back to Top</a>
 
-    <div class="cover" style="background: rgba(53, 51, 51, 0.278431);">
-      <div class="navbar navbar-fixed-top" role="navigation">
-        <div class="container" style="width:100%;height:85px;padding-top:16px;">
+    <div class="navbar " role="navigation" style="background-color: #f99232;padding-top: 16px;">
+        <div class="container" style="width:100%;height:85px">
           <div class="navbar-header">
             <img src="../LogoSimpleHorizon.png" class="img-responsive logo-pioneras">
             <button type="button" data-toggle="collapse" data-target="#navbar-ex-collapse" class="navbar-toggle">
@@ -31,24 +30,28 @@
             <a class="navbar-brand" href="#"><span></span></a>
           </div>
           <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-            <div class=" hidden-xs text-right menu-supredes " >
+            <div class=" hidden-xs text-right menu-supredes ">
+
               <a href="https://twitter.com/pionerasdev" ><i class="fa fa-lg fa-fw fa-twitter text-inverse font-redessup"></i></a>
               <a href="https://github.com/pionerasdevelopers" ><i class="fa fa-lg fa-fw fa-github text-inverse font-redessup"></i></a>
               <a href="https://www.instagram.com/pionerasdev/" ><i class="fa fa-lg fa-fw fa-instagram text-inverse font-redessup"></i></a>
-              <a href="https://es.pinterest.com/piodev/" ><i class="fa fa-lg fa-fw fa-pinterest-p text-inverse font-redessup"></i></a>
-              <a href="https://www.flickr.com/photos/141169078@N06/" ><i class="fa fa-lg fa-fw fa-flickr text-inverse font-redessup"></i></a>
-              <a href="https://pionerasdevelopers.slack.com" ><i class="fa fa-lg fa-fw fa-slack text-inverse font-redessup"></i></a>
+                  <a href="https://es.pinterest.com/piodev/" ><i class="fa fa-lg fa-fw fa-pinterest-p text-inverse font-redessup"></i></a>
+                  <a href="https://www.flickr.com/photos/141169078@N06/" ><i class="fa fa-lg fa-fw fa-flickr text-inverse font-redessup"></i></a>
+                  <a href="https://pionerasdevelopers.slack.com" ><i class="fa fa-lg fa-fw fa-slack text-inverse font-redessup"></i></a>
 
                 </div>
             <ul class="nav navbar-nav nav-bar-orange" style=" text-align: center;">
               <li class="active">
-                <a href="#" class="menu-fontsize font-mbtx">INICIO</a>
+                <a href="../index.html" class="menu-fontsize font-mbtx">INICIO</a>
               </li>
               <li>
-                <a href="#quien" class="menu-fontsize page-scroll font-mbtx" >SOBRE NOSOTRAS</a>
+                <a href="#quien" class="menu-fontsize page-scroll font-mbtx">SOBRE NOSOTRAS</a>
               </li>
               <li>
-                <a href="encuentros" class="menu-fontsize font-mbtx">ENUCENTROS</a>
+                <a href="../encuentros" class="menu-fontsize font-mbtx">ENCUENTROS</a>
+              </li>
+              <li>
+                <a href="comparte" class="menu-fontsize font-mbtx">COMPARTE</a>
               </li>
               <li>
                 <a href="http://pionerasdevelopers.github.io/" target="_blank" class="menu-fontsize font-mbtx">BLOG</a>
@@ -57,29 +60,49 @@
                 <a href="#meet" target="_blank" class="menu-fontsize page-scroll font-mbtx">MEETUPS</a>
               </li>
             </ul>
-            <div><a href="#donaciones" class="btn btn-lg btn-primary cmn-t-shake boton-donar page-scroll font-mbtx" style="
-    display: inline-block;
-    margin-left: 10px;
-  ">DONAR</a></div>
+            <div style="display:none;"><a href="#donaciones" class="btn btn-lg btn-primary cmn-t-shake boton-donar page-scroll font-mbtx" style="display: inline-block;margin-left: 10px">DONAR</a></div>
           </div>
         </div>
-      </div>
-      <div style="background-image : url('foto.jpeg')" class="background-image-fixed cover-image"></div>
-      <div  class="container">
+    </div>
+
+    <div id="comparte">
+      <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <h1 id="top"class="text-inverse titulo-pio font-titles" style="font-size: 48px">¡CREAREMOS CON CÓDIGO</h1> <h1 class="text-inverse titulo-piotwo font-titles" style="font-size: 48px">NUESTRO PROPIO UNIVERSO!</h1>
-            <p class="text-inverse"></p>
-            <br>
-            <br>
-            <a href="#unete" class="btn btn-lg btn-primary cmn-t-shake boton-unete page-scroll font-mbtx" >ÚNETE</a>
-          </div>
+          <h1 class="title-comparte" >Deseas impartir una charla</h1>
+            <p class="p-comparte">Te llama la atención nuestra inciativa y te gustaría compartir tu conocimiento sobre programación, Te invitamos a que realices una charla del tema de tu interes<br>a continuación déjanos tus datos y te estaremos contáctando.</p>
+          <form class="form form-comparte" id="phpcontactform">
+            <div class="form-group">
+              <input class="form-control input-lg" type="text" placeholder="Nombres" name="nombre" id="nombre" required="">
+            </div>
+            <div class="form-group">
+              <input class="form-control input-lg" type="text" placeholder="Apellidos" name="apellido" id="apellido" required="">
+            </div>
+            <div class="form-group">
+              <input class="form-control input-lg" type="text" placeholder="Usuario de Twitter" name="user-twitter" id="user-twitter" >
+            </div>
+            <div class="form-group">
+              <input class="form-control input-lg" type="email" placeholder="Email" name="email" id="email" required="">
+            </div>
+            <div class="form-group">
+             <input class="form-control input-lg" type="text" placeholder="Nombre de la charla" name="charla" id="charla" required="">
+            </div>
+            <div class="form-group">
+              <textarea name="description-conference" cols="40" rows="10" placeholder="Breve descripción de la charla"  aria-invalid="false"></textarea>
+            </div>
+            <div class="form-group">
+              <textarea name="description-about" cols="40" rows="10" placeholder="Breve descripción sobre usted (trayectoria, ocupación, etc) "  aria-invalid="false"></textarea>
+            </div>
+            <div class="form-group">
+              <textarea name="recursos" cols="40" rows="10" placeholder="Recursos necesarios"  aria-invalid="false"></textarea>
+            </div>
+            <div class="form-group">
+            <input class="btn btn-success btn-lg cmn-t-shake btn-block font-mbtx" style="background-color:#F99232;border-color:#F99232;font-size: 16px;width: 112px;margin: 0 auto;" type="submit" value="Enviar">
+            </div>
+            <span class="loading"></span>
+          </form>
         </div>
       </div>
     </div>
-
-
-
 
     <footer class="section sfooter" >
       <div class="container">
@@ -88,32 +111,20 @@
                 <p style="font-size: 18px;line-height: 19px;">  We are a Passion Driven Community! <br> Medellín, Colombia, Sur América</p>
               </div>
               <div class="col-md-4 cont-info-footer" style="text-align: center;">
-                <a style="color:#fff;font-size: 24px;" class="font-mbtx enlace-footer">Contacto</a>
+                <a href="https://github.com/colombia-dev/codigo-de-conducta" target="_blank" style="color:#fff;font-size: 14px;" class="font-mbtx enlace-footer">Adoptamos el código de conducta de ColombiaDev</a>
+                <p class="font-mbtx">© PionerasDevelopers 2016. All rights reserved.</p>
               </div>
-              <div class="col-md-4 cont-info-footer">
-                <div class="col-md-4 siguenos-marg font-mbtx" style="padding: 0px;">
-                  <p style="font-size: 18px;text-align: right;" class="font-mbtx">Síguenos en:</p>
-                </div>
-                <div class="col-md-8 hidden-xs" style="padding: 0px;">
+              <div class="col-md-4 cont-info-footer" style="text-align: center;margin-top: -6px;">
+                  <p style="font-size: 18px;/* text-align: left; */margin-bottom: 0px;" class="font-mbtx">Síguenos en:</p>
                   <a href="https://twitter.com/pionerasdev" target="_blank"><i class="fa fa-2x fa-fw fa-twitter text-inverse"></i></a>
                   <a href="https://github.com/pionerasdevelopers" target="_blank"><i class="fa fa-2x fa-fw fa-github text-inverse"></i></a>
                   <a href="https://www.instagram.com/pionerasdev/" target="_blank"><i class="fa fa-2x fa-fw fa-instagram text-inverse"></i></a>
                   <a href="https://es.pinterest.com/piodev/" target="_blank"><i class="fa fa-2x fa-fw fa-pinterest-p text-inverse"></i></a>
                   <a href="https://www.flickr.com/photos/141169078@N06/" target="_blank"><i class="fa fa-2x fa-fw fa-flickr text-inverse"></i></a>
                   <a href="https://pionerasdevelopers.slack.com" target="_blank"><i class="fa fa-2x fa-fw fa-slack text-inverse"></i></a>
-                  <a href="https://slides.com/pionerasdevelopers/" target="_blank"><img src="../slide.png"/></a>
-                  <a href="http://www.meetup.com/es-ES/members/201639120/?op=&memberId=201639120" target="_blank"><img src="../meetup.png"/></a>
-                  <a href="https://prezi.com/user/dc51yqcggcgi/" style="padding: 0px 5px;" target="_blank"><img style="width:50px;" src="../logo-prezi.png"/></a>
-                  <a href="https://hackpad.com/Clase-30-de-Abril-IUFyvKiFLOx" target="_blank"><img src="../hackpad.png"/></a>
-                </div>
               </div>
         </div>
-        <div class="row" style="margin-top: 30px;">
-          <div class="col-md-12" style="text-align:center;">
-            <a href="https://github.com/colombia-dev/codigo-de-conducta" target="_blank" style="color:#fff;font-size: 14px;" class="font-mbtx enlace-footer">Adoptamos el código de conducta de ColombiaDev</a>
-            <p class="font-mbtx">© PionerasDevelopers 2016. All rights reserved.</p>
-          </div>
-        </div>
+
       </div>
     </footer>
 
