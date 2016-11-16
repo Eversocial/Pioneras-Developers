@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../Pioneras 2.0.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script type="text/javascript" src="..//code.jquery.com/jquery-1.11.2.min.js"></script>
+  </head>
+  <body>
+    <style>
+      .t-eventos{
+        width: 100%;
+      }
+      .t-eventos th{
+        text-align: center;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px;
+        background: #f99232;
+        border: 1px solid white;
+        color: white;
+      }
+
+      .t-eventos td{
+        padding: 20px 10px;
+        text-align: center;
+        border: 1px solid white;
+        font-size: 15px;
+        line-height: 18px;
+      }
+      .t-eventos span{
+        font-size: 30px;
+        color: #f99232;
+        font-weight: 600;
+      }
+
+      .t-eventos i{
+        font-size: 29px;
+        color: #f99232;
+      }
+
+      .t-eventos i:hover{
+        opacity: 0.7;
+      }
+
+      .t-eventos tr:nth-child(odd) {
+        background-color:#f2f2f2;
+      }
+      .t-eventos tr:nth-child(even) {
+        background-color:#fbfbfb;
+      }
+    </style>
+    <a href="#" class="back-to-top">Back to Top</a>
+
+    <div class="navbar " role="navigation" style="background-color: #f99232;padding-top: 16px;">
+        <div class="container" style="width:100%;height:85px">
+          <div class="navbar-header">
+            <img src="../LogoSimpleHorizon.png" class="img-responsive logo-pioneras">
+            <button type="button" data-toggle="collapse" data-target="#navbar-ex-collapse" class="navbar-toggle">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span></span></a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <div class=" hidden-xs text-right menu-supredes ">
+              <a href="http://pionerasdevelopers.github.io/" target="_blank" class="menu-fontsize font-mbtx" style="margin-left: 399px !important">BLOG</a>
+              <a href="https://twitter.com/pionerasdev" target="_blank"><i class="fa fa-lg fa-fw fa-twitter text-inverse font-redessup"></i></a>
+              <a href="https://github.com/pionerasdevelopers" target="_blank"><i class="fa fa-lg fa-fw fa-github text-inverse font-redessup"></i></a>
+              <a href="https://www.instagram.com/pionerasdev/" target="_blank"><i class="fa fa-lg fa-fw fa-instagram text-inverse font-redessup"></i></a>
+                  <a href="https://es.pinterest.com/piodev/" target="_blank"><i class="fa fa-lg fa-fw fa-pinterest-p text-inverse font-redessup"></i></a>
+                  <a href="https://www.flickr.com/photos/141169078@N06/" target="_blank"><i class="fa fa-lg fa-fw fa-flickr text-inverse font-redessup"></i></a>
+                  <a href="https://pionerasdevelopers.slack.com" target="_blank"><i class="fa fa-lg fa-fw fa-slack text-inverse font-redessup"></i></a>
+
+                </div>
+            <ul class="nav navbar-nav nav-bar-orange" style=" text-align: center;">
+              <li >
+                <a href="../index.html" class="menu-fontsize font-mbtx">INICIO</a>
+              </li>
+              <li>
+                <a href="../index.html#quien" class="menu-fontsize page-scroll font-mbtx">SOBRE NOSOTRAS</a>
+              </li>
+              <li>
+                <a href="../charlas" class="menu-fontsize font-mbtx">CHARLAS</a>
+              </li>
+              <li >
+                <a href="../galeria" class="menu-fontsize font-mbtx">GALERÍA</a>
+              </li>
+              <li>
+                <a href="../comunidades" class="menu-fontsize font-mbtx">COMUNIDADES</a>
+              </li>
+              <li>
+                <a href="../recursos" class="menu-fontsize font-mbtx">RECURSOS</a>
+              </li>
+              <li class="active">
+                <a href="#"  class="menu-fontsize page-scroll font-mbtx">MEETUPS</a>
+              </li>
+            </ul>
+            <div style="display:none;"><a href="#donaciones" class="btn btn-lg btn-primary cmn-t-shake boton-donar page-scroll font-mbtx" style="display: inline-block;margin-left: 10px">DONAR</a></div>
+          </div>
+        </div>
+    </div>
+
+    <div id="meetup">
+      <div class="container">
+        <div class="row" style="padding-bottom: 100px;">
+          <h1 class="title-comparte" >Meetup</h1>
+          <p class="p-comparte">Agenda ya estas fechas y haz parte de nuestros próximos encuentros.</p>
+          <table class="t-eventos">
+            <tr>
+              <th>Charla</th>
+              <th>Descripción</th>
+              <th>Fecha</th>
+              <th>Lugar</th>
+              <th>Recurso</th>
+            </tr>
+            <tr>
+              <td>Construyendo la Nave Pionera Primeros módulos</td>
+              <td>El martes 1 de Noviembre acompáñanos en esta aventura, seguro no te arrepentirás</td>
+              <td><span>1</span><br>noviembre 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/join/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+          </table>
+          <p class="p-comparte" style="padding-top:30px;">Estas son las memorias de nuestras últimas reuniones.</p>
+          <table class="t-eventos">
+            <tr>
+              <th>Charla</th>
+              <th>Descripción</th>
+              <th>Fecha</th>
+              <th>Lugar</th>
+              <th>Recurso</th>
+            </tr>
+            <tr>
+              <td>Taller de Sail.JS Preparándonos para navegar</td>
+              <td>SEl sábado 29 de Octubre acompáñanos en esta aventura, seguro no te arrepentirás</td>
+              <td><span>29</span><br>octubre 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/234678125/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Conquistando tierras a borde del bote Sails.js</td>
+              <td>Súbete al bote Sails.js Continuamos con la segunda temporada de Pioneras Developers! Durante el segundo semestre de este año las charlas y talleres serán facilitadas por miembros de la comunidad</td>
+              <td><span>11</span><br> octubre 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/234678125/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Aterrizando en el Planeta Angular. Taller presencial!</td>
+              <td>Taller presencial 25 cupos limitados Te esperamos este sábado para un nuevo taller.</td>
+              <td><span>1</span><br>octubre 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/234479223/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Integrando bootstrap a la Nave Pionera!</td>
+              <td>Continuamos con la segunda temporada de Pioneras Developers! Durante el segundo semestre de este año las charlas y talleres serán facilitadas por miembros de la comunidad.</td>
+              <td><span>13</span><br>septiembre 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/233978828/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Taller de Scrum! Para alinear nuestro despegue</td>
+              <td>¡Taller de Scrum para alinear nuestro despegue! Te esperamos este sábado para un nuevo taller.</td>
+              <td><span>27</span><br>agosto 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/233560849/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Navegando al planeta Angular.Js</td>
+              <td>Viajando al planeta Angular.Js! Continuamos con la segunda temporada de Pioneras Developers!</td>
+              <td><span>9</span><br>agosto 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/233192109/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>¿Qué idea tienes en mente?</td>
+              <td>El día de mañana definiremos los equipos para comenzar a realizar los proyectos. Podrás sugerir ideas y además hablaremos sobre el próximo evento de mujeres: RailsGirls Medellín.</td>
+              <td><span>30</span><br>julio 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/232979664/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Charla de Scrum para comenzar la Segunda Temporada!</td>
+              <td>Bienvenidas a la segunda temporada de Pioneras Developers! Durante el segundo semestre de este año las charlas y talleres serán facilitadas por miembros de la comunidad.</td>
+              <td><span>12</span><br>julio 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/232469945/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Llamado a las Pioneras para construir nuestra Nave!</td>
+              <td>Te esperamos este Sábado, estaremos interactuando con HTML, CSS, JavaScript.  Con estas herramientas queremos construir nuestro perfil personal de Pioneras.</td>
+              <td><span>25</span><br>junio 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/232092362/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>¡Construiremos juntas nuestra nave Pionera!</td>
+              <td>Te esperamos este martes, donde aprenderemos por qué la estructura es la clave. Conoceremos a nivel técnico las bases que necesitamos para el próxima taller, ha llegado el momento de saber qué es HTML, CSS, JavaScript.</td>
+              <td><span>14</span><br> junio 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/231777208/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Comparte lo que eres - crea y publica!</td>
+              <td>Tu sabes algo! Si TU!, lo sabes y sabes que lo sabes pero es posible.</td>
+              <td><span>21</span><br> mayo 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/231193910/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Segunda Charla Abierta [ ¿Mi identidad Cibernética? ]</td>
+              <td>La computación y ser programadoras no es solo sentarse detrás de un computador en una aburrida oficina. A través de los dispositivos tecnológico tenemos acceso a un mundo infinito y extenso el cual queremos conquistar. </td>
+              <td><span>10</span><br> mayo 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/230872956/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Llamado a las Pioneras con Pasaporte!</td>
+              <td>¿Sabes que la programación de computadores?. La programación Web, es una de las habilidades más importantes que podemos tener en este nuevo siglo. </td>
+              <td><span>30</span><br> abril 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/230695671/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+            <tr>
+              <td>Pionera, ¿Cuál es tu nivel?</td>
+              <td>La computación y ser programadoras no es solo sentarse detrás de un computador en una aburrida oficina, este espacio está lleno de oportunidades, por eso usamos el concepto de la mujer piloto conquistadora de los aires, para animarnos y conectarnos con un mundo de posibilidades! </td>
+              <td><span>19</span><br> abril 2016</td>
+              <td>Ruta N</td>
+              <td><a href="http://www.meetup.com/es/PionerasDevelopers/events/230420235/" target="_blank"><i class="fa fa-external-link"></i></a></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <footer class="section sfooter" >
+      <div class="container">
+        <div class="row">
+              <div class="col-md-4 font-mbtx cont-info-footer">
+                <p style="font-size: 18px;line-height: 19px;">  We are a Passion Driven Community! <br> Medellín, Colombia, Sur América</p>
+              </div>
+              <div class="col-md-4 cont-info-footer" style="text-align: center;">
+                <a href="https://github.com/colombia-dev/codigo-de-conducta" target="_blank" style="color:#fff;font-size: 14px;" class="font-mbtx enlace-footer">Adoptamos el código de conducta de ColombiaDev</a>
+                <p class="font-mbtx">© PionerasDevelopers 2016. All rights reserved.</p>
+              </div>
+              <div class="col-md-4 cont-info-footer" style="text-align: center;margin-top: -6px;">
+                  <p style="font-size: 18px;/* text-align: left; */margin-bottom: 0px;" class="font-mbtx">Síguenos en:</p>
+                  <a href="https://twitter.com/pionerasdev" target="_blank"><i class="fa fa-2x fa-fw fa-twitter text-inverse"></i></a>
+                  <a href="https://github.com/pionerasdevelopers" target="_blank"><i class="fa fa-2x fa-fw fa-github text-inverse"></i></a>
+                  <a href="https://www.instagram.com/pionerasdev/" target="_blank"><i class="fa fa-2x fa-fw fa-instagram text-inverse"></i></a>
+                  <a href="https://es.pinterest.com/piodev/" target="_blank"><i class="fa fa-2x fa-fw fa-pinterest-p text-inverse"></i></a>
+                  <a href="https://www.flickr.com/photos/141169078@N06/" target="_blank"><i class="fa fa-2x fa-fw fa-flickr text-inverse"></i></a>
+                  <a href="https://pionerasdevelopers.slack.com" target="_blank"><i class="fa fa-2x fa-fw fa-slack text-inverse"></i></a>
+              </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+</body></html>
